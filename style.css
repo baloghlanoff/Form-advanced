@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dancing+Script:wght@400..700&family=Dosis:wght@200..800&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Jost:ital,wght@0,100..900;1,100..900&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Unbounded:wght@200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dancing+Script:wght@400..700&family=Dosis:wght@200..800&family=Fredoka:wght@300..700&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Jost:ital,wght@0,100..900;1,100..900&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Unbounded:wght@200..900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body  {
+    background-image: url(./Rectangle\ 5.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+main {
+    width: 100vw;
+    display: flex;
+}
+button {
+    display: block;
+    font-family: "Fredoka", serif;
+}
+button:hover {
+    cursor: pointer;
+}
+h1 {
+    font-family: "Josefin Sans", serif;
+    font-size: 65px;
+    width: 30%;
+    margin: 115px auto;
+}
+.p1 {
+    font-family: "Fredoka", serif;
+    width: 50%;
+    text-align: center;
+    margin: -40px auto;
+    font-size: 35px;
+}
+.b1 {
+    font-family: "Fredoka", serif;
+    font-size: 30px;
+    text-align: start;
+    color: white;
+    background-color: rgb(0, 0, 0, 0.2);
+    border: none;
+    border-radius: 10px;
+    margin: 150px auto;
+    padding: 3px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+h2 {
+    font-family: "Josefin Sans", serif;
+    font-size: 45px;
+    text-align: center;
+    margin-top: 40px;
+}
+form {
+    background-color: rgb(0, 0, 0, 0.4);
+    border: none;
+    border-radius: 3px;
+    width: 60vw;
+    height: 110vh;
+    font-family: "Fredoka", serif;
+}
+::placeholder {
+    color: white;
+}
+input {
+    display: block;
+    font-family: "Fredoka", serif;
+    background-color: rgb(255, 255, 255, 0.1);
+    padding: 12px;
+    border-radius: 10px;
+    width: 400px;
+}
+h3 {
+    font-family: "Josefin Sans", serif;
+    text-align: center;
+    font-size: 30px;
+}
+.sup {
+    background-color: rgb(11, 99, 194, 0.3);
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    width: 400px;
+}
+.google {
+    background-color: rgb(255, 255, 255, 0.1);
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    width: 400px;
+}
+.p2 {
+    color: gray;
+    margin-top: 4px;
+}
+.inp1 {
+    display: inline;
+    text-align: center;
+    margin-left: 70px;
+    margin-top: -20px;
+    margin-bottom: -20px;
+}
+label {
+    margin-left: -195px;
+}
+.d3 {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+input, .sup, .google {
+    margin: 30px auto;
+}
+.sup, .google {
+    font-size: 20px;
+}
+.d1 {
+    display: block;
+}
+i {
+    cursor: pointer;
+}
